@@ -1,0 +1,46 @@
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px ;
+}
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.facilities p{
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.facilities_coloumn{
+    display: flex;
+    justify-content: space-between;
+}
+.facilities_coloumn .box{
+    margin: 25px auto;
+    width: 225px;
+    background: #fff;
+    position: relative;
+    transition: 0.5s;
+}
+.facilities_coloumn .box img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scale(1, 1);
+    transition: all 0.5s;
+}
+.facilities_coloumn .box img:hover{
+    transform: scale(1.1, 1.1);
+}
+.facilities_coloumn .box h3{
+    margin-top: 20px;
+}
+@media(max-width: 700px){
+    .facilities_coloumn{
+        display: block;
+    }
+}
